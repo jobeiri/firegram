@@ -1,12 +1,14 @@
-import React from 'react';
-import Title from './comps/Title';
+import React from "react";
+import Title from "./components/Title";
+import UploadForm from "./components/UploadForm";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Title/>
+    <div>
+      <Title />
+      <UploadForm />
     </div>
   );
-}
+};
 
 export default App;
