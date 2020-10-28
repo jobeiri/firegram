@@ -4,7 +4,7 @@ import UploadForm from "./components/UploadForm";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Title />
       <UploadForm />
     </div>
